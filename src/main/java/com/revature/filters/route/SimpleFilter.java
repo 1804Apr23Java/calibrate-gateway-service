@@ -17,7 +17,7 @@ public class SimpleFilter extends ZuulFilter {
 
 	@Override
 	public String filterType() {
-		return null;
+		return "route";
 	}
 
 	@Override
