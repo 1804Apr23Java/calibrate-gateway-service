@@ -4,3 +4,9 @@ spring:
   cloud:
     config:
       uri: ${CONFIG_HOME}
+
+# test route
+#zuul:
+#  routes:
+#    books:
+#      url: http://localhost:8090
